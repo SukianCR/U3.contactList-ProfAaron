@@ -40,3 +40,31 @@
 .read-the-docs {
   color: #888;
 }
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: hotpink !important;
+}
+
+h2 {
+  color: hotpink;
+  padding: 1em;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.table tbody tr td,
+.table thead tr th {
+  padding: 1em;
+}
+
+.table {
+  border: 1px solid hotpink;
+}
+
+.table thead tr th {
+  color: yellowgreen;
+  background-color: rgba(0, 0, 0, 0.747) !important;
+}
