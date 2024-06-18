@@ -47,14 +47,17 @@
   color: white !important;
 }
 
-.list-group-item:hover {
-  background-color: yellowgreen;
-  color: white !important;
-}
 .list-group-item {
   border: 0px;
 }
 
+ul:hover {
+  background-color: rgb(29, 29, 29);
+  color: white !important;
+}
+ul {
+  padding: 1em;
+}
 h2 {
   color: hotpink;
   padding: 1em;
@@ -104,8 +107,8 @@ body {
 }
 
 .table thead tr th {
-  color: yellowgreen;
-  background-color: rgba(0, 0, 0, 0.747) !important;
+  color: hotpink;
+  background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .message {
