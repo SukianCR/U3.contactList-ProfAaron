@@ -44,20 +44,59 @@
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
   background-color: hotpink !important;
+  color: white !important;
+}
+
+.list-group-item:hover {
+  background-color: yellowgreen;
+  color: white !important;
+}
+.list-group-item {
+  border: 0px;
 }
 
 h2 {
   color: hotpink;
   padding: 1em;
+  font-weight: 550;
+  /*text-shadow: yellowgreen 10px -5px 0.8em;*/
+  text-shadow: 0 -0.1em 0.5em yellowgreen;
 }
 
 body {
-  background-color: whitesmoke;
+  font-family: "Optima", sans-serif;
+}
+body {
+  /*background-color: rgba(0, 0, 0, 0.836);*/
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.92) 0%,
+    rgba(0, 0, 0, 0.81) 25%,
+    rgba(0, 0, 0, 0.91) 50%,
+    rgba(0, 0, 0, 0.77) 75%,
+    rgba(0, 0, 0, 0.92) 100%
+  );
+}
+
+.messageC td {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: whitesmoke;
 }
 
 .table tbody tr td,
 .table thead tr th {
   padding: 1em;
+  border: 1px dashed yellowgreen;
+  border-right: 1px dashed hotpink;
+}
+
+.table tbody tr {
+  box-shadow: 0 -0.1em 0.8em yellowgreen;
+}
+
+.table thead tr th {
+  box-shadow: 0 -0.5em 0.1em yellowgreen;
 }
 
 .table {
@@ -67,4 +106,26 @@ body {
 .table thead tr th {
   color: yellowgreen;
   background-color: rgba(0, 0, 0, 0.747) !important;
+}
+
+.message {
+  color: yellowgreen;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.list-group {
+  padding: 1em 0;
+}
+
+.btn-primary {
+  background-color: hotpink !important;
+  border: 1px solid yellowgreen !important;
+  margin-top: 1em;
+}
+.btn-primary:hover {
+  background-color: yellowgreen !important;
+  border: 1px solid hotpink !important;
 }
